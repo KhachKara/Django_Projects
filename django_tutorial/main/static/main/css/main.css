@@ -14,7 +14,7 @@ aside {
 
 aside img {
     width: 80px;
-    flot: left;
+    float: left;
 }
 
 aside .logo{
@@ -30,7 +30,7 @@ aside h3 {
     font-size: 20px;
 }
 
-aside ul {list-style: none}
+aside ul {list-style: none;}
 aside ul li {
     color: #fff;
     display: block;
@@ -38,7 +38,7 @@ aside ul li {
     transition: transform .6s ease;
 }
 
-aside ul li:hover, aside ul a:hover{
+aside ul li:hover, aside ul a:hover {
     color: #eb5959;
     text-decoration: none;
     transform: scale(1.05);
@@ -49,8 +49,8 @@ main .features {
     color: #fff;
     margin-top: 100px;
     text-align: center;
-    width: 75
+    width: 75;
 }
 
 main .features h1 {font-size: 50px;}
-main .features p {max-width: 400px; margin: 20px auto}
+main .features p {max-width: 400px; margin: 20px auto;}
