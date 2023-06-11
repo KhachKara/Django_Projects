@@ -12,3 +12,7 @@ def about(request):
 
 def github(request):
     return HttpResponse('<a href="https://github.com/KhachKara" target="_blank">Ссылка на мой GitHub</a>')
+
+
+def contacts(request):
+    return render(request, 'main/contacts.html')
