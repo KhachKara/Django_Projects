@@ -5,21 +5,17 @@
 {% block content %}
     <div class="features">
         <h1>Новости на сайте</h1>
-        <p>Lorem ipsum</p>
-        <button class="btn btn-warning">На страницу про меня</button>
-        <!-- {% for val in values %}
-            {% if val == 'Hello' %}
-                {% filter upper %}
-                    <p> {{ val }} </p>
-                {% endfilter %}
-            {% endif %}
-        {% endfor %}
-
-        {{ obj.age }}
-
-        {% for el in obj %}
-            <p> {{ el }} </p>
-        {% endfor %} -->
+        {% if news %}
+            {% for el in news %}
+                <div class="alert alert-warning">
+                    <h3>{{ el.title }}</h3>
+                    <p>{{ el.anons }}</p>
+                </div>
+            {% endfor %}
+        {% else %}
+            <p>У вас нет записей!</p>
+        {% endif %}
+        {# Комментарий #}
     </div>
 {% endblock %}
 
