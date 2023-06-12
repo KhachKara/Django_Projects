@@ -3,7 +3,7 @@ body {
 }
 
 aside {
-    flot: left;
+    float: left;
     background: #181818;
     width: 20%;
     padding: 2.5%;
